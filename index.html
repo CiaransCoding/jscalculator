@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+
+    <input type="text" name="num1" id="num1" placeholder="Number 1">
+    <select name="operations" id="operations">
+        <option value="">--Please choose an option--</option>
+        <option class="operator" id="add" value="add">Add</option>
+        <option class="operator" id="subtract" value="subtract">Subtract</option>
+        <option class="operator" id="multiply" value="multiply">Multiply</option>
+        <option class="operator" id="divide" value="divide">Divide</option>
+    </select>
+    <input type="text" name="num2" id="num2" placeholder="Number 2">
+    <label for="answer">=</label>
+    <input type="text" id="answer" placeholder="Answer">
+
+    <button id="calculate">Calculate!</button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
